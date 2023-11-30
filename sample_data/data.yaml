@@ -1,0 +1,13 @@
+train: ./sample_data/train/images
+val: ./sample_data/valid/images
+test: ./sample_data/test/images
+
+nc: 7
+names: ['Helm', 'Pakai Sepatu', 'Pakaian Terbuka', 'Pakaian Tertutup', 'Spion', 'Tidak Pakai Helm', 'Tidak Pakai Sepatu']
+
+roboflow:
+  workspace: zen-less-fdqt1
+  project: keamanan-pengendara-xxg06
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zen-less-fdqt1/keamanan-pengendara-xxg06/dataset/2
